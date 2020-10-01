@@ -1,0 +1,13 @@
+#Exemplo de GET passando um Objeto completo como parâmetro:
+
+GET
+http://localhost:8080/exception-service/exception_management/filter/general?object={
+        "id": 2,
+        "unitName": "uMain3",
+        "className": "TfmPrincipal3",
+        "componentName": "fmPrincipal3",
+        "detail": "Table unknown3\nPARADFMETROS\nAt line 1, column 15",
+        "versionName": "1.3.5.3",
+        "aplicacao": "fb3cbb39-10f0-4394-906c-ac6693112026",
+        "versionType": "SNAPSHOT2"
+  }
